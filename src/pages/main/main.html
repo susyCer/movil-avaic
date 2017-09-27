@@ -1,0 +1,41 @@
+<ion-content>
+  <ion-slides pager (ionSlideDidChange)="slideChange()">
+  <ion-slide>
+      <div class="diag" style="background: url('assets/img/whitebg.svg') no-repeat">
+          <ion-icon  ios="logo-github" md="logo-github" color="dark"></ion-icon>
+      </div>
+      <div>
+          <h2>Elvira Sastre</h2>
+          <p>Maldita zorra estaba loca joder, estaba loca como no iba a perder la puta razon por ella?</p>
+      </div>
+  </ion-slide>
+    <ion-slide>
+
+      <div class="diag" style="background: url('assets/img/whitebg.svg') no-repeat">
+          <ion-icon ios="ios-cloudy-night" md="md-cloudy-night" color="dark"></ion-icon>
+      </div>
+      <div>
+          <h2>Anonimo</h2>
+          <p>Mi vida se siente como una pregunta sin respuesta solo dias y noches esperando que algo suceda</p>
+      </div>
+
+
+    </ion-slide>
+    <ion-slide>
+      <div class="diag" style="background: url('assets/img/whitebg.svg') no-repeat">
+          <ion-icon ios="logo-freebsd-devil" md="logo-freebsd-devil" color="dark"></ion-icon>
+      </div>
+      <div>
+          <h2>Maybe</h2>
+          <p>Tal vez lo que necesitaba era una persona que la sostuviera en vez de alguien que tratara de tirarla al suelo</p>
+      </div>
+
+
+    </ion-slide>
+
+  </ion-slides>
+  <button
+    (click)="skip()" id="skip">
+    {{skipMsg}}
+</button>
+</ion-content>
